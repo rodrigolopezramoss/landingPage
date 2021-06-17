@@ -1,0 +1,366 @@
+nav {
+  height: 50px;
+  background-color: #59ab48; }
+  nav img {
+    width: 150px;
+    margin-top: -60px;
+    margin-left: -20px;
+    position: relative;
+    overflow: hidden; }
+    nav img:hover {
+      width: 160px;
+      margin-top: -65px;
+      margin-left: -25px; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+  background-color: #BDD5DD; }
+  body #container {
+    height: 100%; }
+
+main {
+  height: 1600px; }
+  main img {
+    width: 100%;
+    height: 700px; }
+  main #oscurecedor {
+    background-color: rgba(0, 0, 0, 0.408);
+    height: 500px;
+    position: relative;
+    z-index: 1;
+    margin-top: -704.5px; }
+    main #oscurecedor #boton {
+      color: #707070;
+      position: absolute;
+      margin-top: 15%;
+      margin-left: 43%;
+      text-align: center;
+      font-weight: bold;
+      font-size: 1em;
+      width: 100px;
+      padding: 20px;
+      border-radius: 300px;
+      background-color: #eed94e95; }
+      main #oscurecedor #boton:hover {
+        font-size: 1.2em;
+        width: 120px;
+        margin-top: 14.8%;
+        margin-left: 42.5%;
+        background-color: #eed94eec; }
+  main #principal {
+    background-color: #BDD5DD;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 100%; }
+    main #principal #texto {
+      color: #bfbfbf;
+      background-color: rgba(7, 7, 7, 0.748);
+      margin: 12%;
+      margin-top: 13%;
+      margin-bottom: 30%;
+      padding: 6%;
+      border-radius: 75px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      box-shadow: rgba(15, 15, 15, 0.36) 10px 10px 100px; }
+      main #principal #texto h1 {
+        margin-top: 6%;
+        font-size: 2.5em; }
+      main #principal #texto :nth-child(2) {
+        margin-top: 5%; }
+      main #principal #texto p {
+        font-weight: bold;
+        margin-top: 2%;
+        margin-left: 10%;
+        text-align: left;
+        font-size: 1.4em; }
+      main #principal #texto:hover {
+        background-color: rgba(7, 7, 7, 0.758);
+        box-shadow: rgba(15, 15, 15, 0.326) 10px 10px 100px; }
+    main #principal #captura {
+      position: relative;
+      margin-top: 20%;
+      margin-right: 10%;
+      width: 120%;
+      height: 100%;
+      box-shadow: rgba(15, 15, 15, 0.054) 10px 10px 100px; }
+    main #principal iframe {
+      width: 75%;
+      height: 415px;
+      margin-left: 12%; }
+    main #principal #texto2 {
+      color: #bfbfbf;
+      background-color: rgba(7, 7, 7, 0.748);
+      padding: 6%;
+      margin-right: 10%;
+      border-radius: 75px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      box-shadow: rgba(15, 15, 15, 0.36) 10px 10px 100px; }
+      main #principal #texto2 h1 {
+        margin-top: 6%;
+        font-size: 2.5em; }
+      main #principal #texto2 :nth-child(2) {
+        margin-top: 5%; }
+      main #principal #texto2 p {
+        font-weight: bold;
+        margin-top: 2%;
+        margin-left: 10%;
+        text-align: left;
+        font-size: 1.3em; }
+      main #principal #texto2:hover {
+        background-color: rgba(7, 7, 7, 0.758);
+        box-shadow: rgba(15, 15, 15, 0.326) 10px 10px 100px; }
+
+@media screen and (max-width: 768px) {
+  main {
+    height: 1500px; }
+    main img {
+      width: 100%;
+      height: 400px; }
+    main #oscurecedor {
+      background-color: rgba(0, 0, 0, 0.408);
+      height: 300px;
+      position: relative;
+      z-index: 1;
+      margin-top: -404.5px; }
+      main #oscurecedor #boton {
+        margin-top: 20%;
+        margin-left: 38%;
+        font-size: 1em;
+        width: 100px; }
+        main #oscurecedor #boton:hover {
+          font-size: 1.2em;
+          width: 120px;
+          margin-top: 19.8%;
+          margin-left: 36.5%; }
+    main #principal {
+      display: grid;
+      grid-template: repeat(11, 1fr)/repeat(5, 1fr);
+      grid-template-areas: "a a a a a" "a a a a a" "a a a a a" "b b b b b" "b b b b b" ". . . . ." ". . . . ."  "d d d d d" "d d d d d" "d d d d d" "c c c c c" "c c c c c";
+      grid-gap: 17px; }
+      main #principal #texto {
+        margin: 5%;
+        margin-top: 10%;
+        padding: 0%; }
+        main #principal #texto h1 {
+          margin-top: 2%;
+          margin-bottom: 1%;
+          font-size: 1.5em; }
+        main #principal #texto :nth-child(2) {
+          margin-top: 3%; }
+        main #principal #texto p {
+          margin-top: 1%;
+          margin-left: 15%;
+          font-size: 1em; }
+      main #principal #captura {
+        position: absolute;
+        margin-top: 65%;
+        margin-bottom: 35%;
+        margin-left: 22%;
+        width: 360px;
+        height: 40%; }
+      main #principal #texto2 {
+        margin: 5%;
+        margin-top: 20%;
+        padding: 0%; }
+        main #principal #texto2 h1 {
+          margin-top: 4%;
+          margin-bottom: 1%;
+          font-size: 1.2em; }
+        main #principal #texto2 :nth-child(2) {
+          margin-top: 1%; }
+        main #principal #texto2 p {
+          margin-top: 1%;
+          margin-left: 13%;
+          font-size: 0.8em; }
+      main #principal iframe {
+        margin-top: 5%;
+        width: 80%;
+        height: 250px; } }
+
+/*----------------------------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------------------------*/
+@media screen and (max-width: 568px) {
+  main {
+    height: 1500px; }
+    main img {
+      width: 100%;
+      height: 400px; }
+    main #oscurecedor {
+      background-color: rgba(0, 0, 0, 0.408);
+      height: 300px;
+      position: relative;
+      z-index: 1;
+      margin-top: -404.5px; }
+      main #oscurecedor #boton {
+        margin-top: 20%;
+        margin-left: 38%;
+        font-size: 1em;
+        width: 100px; }
+        main #oscurecedor #boton:hover {
+          font-size: 1.2em;
+          width: 120px;
+          margin-top: 19.8%;
+          margin-left: 36.5%; }
+    main #principal {
+      display: grid;
+      grid-template: repeat(10, 1fr)/repeat(5, 1fr);
+      grid-template-areas: "a a a a a" "a a a a a" "b b b b b" "b b b b b" ". . . . ." ". . . . ."  "d d d d d" "d d d d d" "c c c c c" "c c c c c";
+      grid-gap: 17px; }
+      main #principal #texto {
+        margin: 5%;
+        margin-top: 10%;
+        padding: 0%; }
+        main #principal #texto h1 {
+          margin-top: 2%;
+          margin-bottom: 1%;
+          font-size: 1.2em; }
+        main #principal #texto :nth-child(2) {
+          margin-top: 0%; }
+        main #principal #texto p {
+          margin-top: 1%;
+          margin-left: 15%;
+          font-size: 0.8em; }
+      main #principal #captura {
+        position: absolute;
+        margin-top: 55%;
+        margin-bottom: 35%;
+        margin-left: 20%;
+        width: 60%;
+        height: 40%; }
+      main #principal #texto2 {
+        margin: 5%;
+        margin-top: 10%;
+        padding: 0%; }
+        main #principal #texto2 h1 {
+          margin-top: 4%;
+          margin-bottom: 1%;
+          font-size: 1.2em; }
+        main #principal #texto2 :nth-child(2) {
+          margin-top: 1%; }
+        main #principal #texto2 p {
+          margin-top: 1%;
+          margin-left: 13%;
+          font-size: 0.8em; }
+      main #principal iframe {
+        margin-top: 5%;
+        width: 80%; } }
+
+/*----------------------------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------------------------*/
+@media screen and (max-width: 375px) {
+  main img {
+    width: 100%;
+    height: 300px; }
+  main #oscurecedor {
+    background-color: rgba(0, 0, 0, 0.408);
+    height: 200px;
+    position: relative;
+    z-index: 1;
+    margin-top: -304.5px; }
+    main #oscurecedor #boton {
+      margin-top: 20%;
+      margin-left: 30%;
+      font-size: 1em;
+      width: 100px; }
+      main #oscurecedor #boton:hover {
+        font-size: 1.2em;
+        width: 120px;
+        margin-top: 19.8%;
+        margin-left: 28.5%; }
+  main #principal {
+    display: grid;
+    grid-template: repeat(10, 1fr)/repeat(5, 1fr);
+    grid-template-areas: "a a a a a" "a a a a a" "b b b b b" "b b b b b" ". . . . ." ". . . . ."  "d d d d d" "d d d d d" "c c c c c" "c c c c c";
+    grid-gap: 17px; }
+    main #principal #texto {
+      margin: 5%;
+      margin-top: 10%;
+      padding: 2%; }
+      main #principal #texto h1 {
+        margin-top: 4%;
+        margin-bottom: 1%;
+        font-size: 1.2em; }
+      main #principal #texto :nth-child(2) {
+        margin-top: 1%; }
+      main #principal #texto p {
+        margin-top: 1%;
+        margin-left: 13%;
+        font-size: 0.8em; }
+    main #principal #captura {
+      position: absolute;
+      margin-top: 85%;
+      margin-left: 10%;
+      width: 280px;
+      height: 40%; }
+    main #principal #texto2 {
+      margin: 5%;
+      margin-top: 10%;
+      padding: 0%; }
+      main #principal #texto2 h1 {
+        margin-top: 4%;
+        margin-bottom: 1%;
+        font-size: 1.2em; }
+      main #principal #texto2 :nth-child(2) {
+        margin-top: 1%; }
+      main #principal #texto2 p {
+        margin-top: 1%;
+        margin-left: 13%;
+        font-size: 0.8em; }
+    main #principal iframe {
+      margin-top: 5%;
+      width: 260px;
+      height: 115px; } }
+
+.a {
+  grid-area: a; }
+
+.b {
+  grid-area: b; }
+
+.c {
+  grid-area: c; }
+
+.d {
+  grid-area: d; }
+
+.e {
+  grid-area: e; }
+
+.f {
+  grid-area: f; }
+
+.g {
+  grid-area: g; }
+
+#principal {
+  display: grid;
+  grid-template: repeat(10, 1fr)/repeat(5, 1fr);
+  grid-template-areas: "a a a b b" "a a a b b" "a a a b b" ". . . . ." "c c c d d" "c c c d d" "c c c d d" "c c c d d" "c c c d d" ". . . . .";
+  grid-gap: 17px; }
+
+footer {
+  display: grid;
+  grid-template: repeat(1, 1fr) 40px repeat(2, 1fr)/repeat(6, 1fr);
+  grid-template-areas: ". . . . . ." "g g . . e e" ". . . . f f" ". . . . . .";
+  grid-gap: 2px; }
+
+footer {
+  margin-top: 500px;
+  height: 150px;
+  background-color: #59ab48; }
+  footer p {
+    margin-left: 15px;
+    color: white; }
+  footer #myCanvas {
+    margin-left: 10px; }

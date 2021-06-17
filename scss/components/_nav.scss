@@ -1,0 +1,18 @@
+nav{
+    height: 50px;
+    background-color: rgb(89, 171, 72);
+
+    img{
+        width: 150px;
+        margin-top: -60px;
+        margin-left: -20px;
+        position: relative;
+        overflow: hidden;
+
+        &:hover{
+            width: 160px;
+            margin-top: -65px;
+            margin-left: -25px;
+        }
+    }
+}
